@@ -1,0 +1,8 @@
+- name: Sample Holloworld Playbook
+  hosts: all
+  tasks:
+    - name: Demo on Heloworld 
+      debug:
+        msg: Welcome to devops world
+  roles: 
+   - sample
